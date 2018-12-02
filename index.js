@@ -317,12 +317,12 @@ class RNUpdate extends Component {
                 }}
             >
                 <View style={styles.wrap}>
-                    {this.renderCloseBtn()}
                     <View
                         style={[
                             styles.innerBox,
                             {width: updateBoxWidth, height: updateBoxHeight}
                         ]}>
+                        {this.renderCloseBtn()}
                         {this.renderBanner()}
                         <View style={{width: updateBoxWidth, height: 85}}>
                             <ScrollView style={{paddingLeft: 10, paddingRight: 10}}>
