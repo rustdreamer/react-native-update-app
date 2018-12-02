@@ -253,8 +253,10 @@ class RNUpdate extends Component {
             <View
                 style={{
                     position: "absolute",
-                    right: (width - updateBoxWidth) / 2 - 16,
-                    top: (height - updateBoxHeight) / 2 - 16,
+                    // right: (width - updateBoxWidth) / 2 - 16,
+                    // top: (height - updateBoxHeight) / 2 - 16,
+                    top: 6,
+                    right: 6,
                     zIndex: 1,
                     width: 32,
                     height: 32,
